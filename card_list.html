@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>DQPDC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <a href="index.html"><h1>Des Questions Pour Des Clémentines🍊</h1></a>
+    <p class="subtitle">Liste des cartes🃏</p>
+  </header>
+
+  <section class="filters">
+    <button class="all" onclick="filterCategory('all')">Tous</button>
+    <button class="onestar" onclick="filterCategory('1-star')">1★</button>
+    <button class="twostar" onclick="filterCategory('2-star')">2★</button>
+    <button class="threestar" onclick="filterCategory('3-star')">3★</button>
+    <button class="fourstar" onclick="filterCategory('4-star')">4★</button>
+    <button class="fivestar"onclick="filterCategory('5-star')">5★</button>
+    <button class="shield" onclick="filterCategory('shield')">Bouclier 🛡️</button>
+  </section>
+
+  <main class="cards" id="cardContainer"></main>
+
+  <script src="script.js"></script>
+</body>
+</html>
