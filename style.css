@@ -171,3 +171,7 @@ box-sizing: border-box;
 .space_bottom {
   padding-bottom: 5px;
 }
+
+.tiny_space_bottom {
+  padding-bottom: 2.5px;
+}
