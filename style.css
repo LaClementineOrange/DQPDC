@@ -155,3 +155,15 @@ a {text-decoration: none;color: #FFFFFF;}
 .color_legendaire {color: rgb(255, 183, 0);}
 .color_secret {color: rgb(250, 43, 43);}
 .color_bouclier {color: rgb(87, 84, 255);}
+
+.credit {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.credit:hover {border-radius: 100px}
