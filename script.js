@@ -247,7 +247,7 @@ const cards = [
   //1
   { 
     id: 17,
-    name: "Sens Interdit",
+    name: "Communisme",
     category: "5-star",
     stars: 5,
     rarity: "legendaire",
