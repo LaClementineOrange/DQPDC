@@ -175,3 +175,22 @@ box-sizing: border-box;
 .tiny_space_bottom {
   padding-bottom: 2.5px;
 }
+
+.end_page_credits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 0 16px; /* add horizontal space */
+  box-sizing: border-box;
+  color:rgb(143, 143, 143);
+  align-items: start;
+}
+
+.line {border-color: rgb(143, 143, 143);}
+
+.space {
+  bottom: 0;
+  position: fixed;
+  align-items: start;
+}
