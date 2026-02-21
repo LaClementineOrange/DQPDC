@@ -98,7 +98,7 @@ const cards = [
     category: "2-star",
     stars: 2,
     rarity: "peu_commun",
-    description: "➡️ Oblige un joueur de votre choix à défausser un certain nombre de cartes de sa main actuel.",
+    description: "➡️ Oblige un joueur de votre choix à défausser un certain nombre de cartes de sa main actuelle.",
     image: "images/card7.png",
     effects: {
       1: "Défausse <b>1</b> cartes",
