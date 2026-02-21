@@ -137,7 +137,12 @@ a {text-decoration: none;color: #FFFFFF;}
   padding-top: 0px;
 }
 
-.space_before { padding-left: 2%;}
+.centered_column { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
 
 .big {
   font-size: 1.1rem;
