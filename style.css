@@ -165,3 +165,7 @@ a {text-decoration: none;color: #FFFFFF;}
   background-color: rgb(255, 255, 255);
   border-radius: 15px;
 }
+
+.space_bottom {
+  padding-bottom: 5px;
+}
