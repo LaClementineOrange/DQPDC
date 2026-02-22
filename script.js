@@ -7,7 +7,7 @@ const cards = [
     category: "1-star",
     stars: 1,
     rarity: "commun",
-    description: "➡️ Augmente le nombre de points gagné par tous les joueurs lors de la prochaine question.",
+    description: "➡️ Augmente le nombre de points gagné par tous les joueurs, y compris vous, lors de la prochaine question.",
     image: "images/card3.png",
     effects: {
       1: "Ajoute <b>1</b> point",
@@ -22,7 +22,7 @@ const cards = [
     category: "1-star",
     stars: 1,
     rarity: "commun",
-    description: "➡️ Diminue le nombre de points gagné par tous les joueurs lors de la prochaine question.",
+    description: "➡️ Diminue le nombre de points gagné par tous les joueurs, y compris vous, lors de la prochaine question.",
     image: "images/card1.png",
     effects: {
       1: "Enlève <b>1</b> point",
@@ -37,7 +37,7 @@ const cards = [
     category: "1-star",
     stars: 1,
     rarity: "commun",
-    description: "➡️ Donne du temps supplémentaire pour répondre à la prochaine question.",
+    description: "➡️ Donne du temps supplémentaire à tous les joueurs pour répondre à la prochaine question.",
     image: "images/card2.png",
     effects: {
       1: "Ajoute <b>3</b> secondes",
@@ -52,7 +52,7 @@ const cards = [
     category: "1-star",
     stars: 1,
     rarity: "commun",
-    description: "➡️ Retire du temps pour répondre à la prochaine question.",
+    description: "➡️ Retire du temps à tous les joueurs pour répondre à la prochaine question.",
     image: "images/card4.png",
     effects: {
       1: "Enlève <b>3</b> secondes",
@@ -68,7 +68,7 @@ const cards = [
     category: "2-star",
     stars: 2,
     rarity: "peu_commun",
-    description: "➡️ Permet de voler des cartes à un joueur aléatoire décidé par une roue.",
+    description: "➡️ Permet de voler des cartes à un joueur aléatoire (décidé par une roue).",
     image: "images/card5.png",
     effects: {
       1: "Enlève <b>3</b> secondes",
@@ -83,7 +83,7 @@ const cards = [
     category: "2-star",
     stars: 2,
     rarity: "peu_commun",
-    description: "➡️ Donne la possibilité de lancer un certain nombre de dés et de récupérer le nombre de points obtenus.",
+    description: "➡️ Donne la possibilité de lancer un certain nombre de dés et de récupérer le nombre de points obtenus sur la face exposée.",
     image: "images/card6.png",
     effects: {
       1: "Nombre de dés : <b>1</b>",
